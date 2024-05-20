@@ -400,6 +400,21 @@ body{
   font-weight: 800;
   color:white;
 }
+.hobbies .content h1{
+  
+  color:white;
+  text-decoration: underline;
+}
+
+.hobbies .content .p1{
+  margin-top: 10px;
+   font-weight: 800;
+   color:black;
+   display: flex;
+   justify-content: center;
+   font-size: larger;
+ }
+
 .work .content .card .card-img{
   position: relative;
   width: 100%;
@@ -702,4 +717,27 @@ body{
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+
+
+.buton {
+  margin-top: 30px;
+
+}
+
+.buton .btnn{
+  height:50px;
+  width:200px;
+  padding: 5px;
+  background-color: #4e9eff;
+  border-color: #4e9eff;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 5px;;
+}
+
+.buton .btnn a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: larger;
 }
